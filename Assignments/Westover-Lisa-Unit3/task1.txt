@@ -1,0 +1,36 @@
+# Lisa Westover
+# CS1400 7 week
+# Unit3/Plan1
+
+Plan for random number guessing game
+
+Software Development Life Cycle
+
+1. Requirements specification
+     - have user enter a number (1 - 10)
+     - make sure it is really a number
+     - output the reply based on how close they are
+        Exact match: Honored to play with you, Master.
+        Off by 1: You are a worthy opponent, Knight.
+        Off by 2: You have much to learn, Padawan.
+        Off by 3: Youngling, your time will come.
+        Off by 3+: Keep working hard in the Service Corps.
+
+2. System analysis
+    Query user
+    if statement to determine answer
+    print answer
+
+
+3. System design
+    Print the Welcome message
+    Query user for number
+    Print a reply based on how close they are
+
+4. Testing
+   2 test cases to run to assess the program
+
+        Case 1:
+            1. test a word or a float to see if it will prompt the user for a valid number
+
+        Case 2: look at chart to make sure the right response was given

@@ -1,0 +1,42 @@
+# Lisa Westover
+# CS1400 7 week
+# Unit3/Plan2
+
+Social Situation
+
+Software Development Life Cycle
+1. Requirements specification
+    a user inputs their name, location, and radius of their personal space using x, y coordinates
+    a second user will do the same
+
+    output if the personal space is violated and if there is overlap
+
+2. System analysis
+        obtain each users x, y coordinates
+        calculate personal space zone for each person
+            count total x,y spots
+        loop though each user's  zone
+            if each coodinate == user2
+                 userXSpotCounter++         #to later determine if all their zones are filled, meaning entirely in space
+                 userXPersonalSpace = 1   #to mark that persons space violated
+        output the results
+
+3. System design
+        Print Welcome statement
+        Indent the user reply information
+        Query for Person 1 and 2 information
+        Print a reply for personal space
+        Print a reply for space overlap
+
+4. Testing
+   2 test cases to run to assess the program
+
+        Case 1:
+            1. Input - Compare answers to the teachers example to see if answers line up.
+            2. Expected Output - Look at example on unit 3 assignment, compare teachers example to results.
+            3. Report of problems and how they were fixed.  Write "Passed" if passed on first try.
+
+        Case 2:
+            1. Input - test the calculation to the distance formula to make sure there is no logical errors
+            2. Expected Output - compare answers to teachers example
+            3. Report of problems and how they were fixed.  Write "Passed" if passed on first try.

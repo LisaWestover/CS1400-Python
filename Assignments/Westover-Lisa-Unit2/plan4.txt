@@ -1,0 +1,38 @@
+Software Development Life Cycle
+
+
+1. Requirements specification
+    5 inputs from the user
+    tax inputs need to display as a float
+    output requires a specific alignment or format
+    output headings of sections are centered
+    output main hearer is all capitalized - .upper()
+    output numbers are right aligned with decimals aligned
+    output colons and $ signs are aligned
+    output - No arithmetic in the print statement
+    output - Single print statement with a single variable as the parameter
+
+
+2. System analysis
+    create variables to input the 5 user inputs
+    create calculation variables
+    use print statments to print the results of the calculations
+
+3. System design
+    Input each of the 5 input items from user, saving them into variables
+    create calculation variables and use them to calculate the results
+    create format display for easy reading of data
+    print the results into the nice formatting
+
+4. Testing
+   2 test cases to run to assess the program
+
+        Case 1:
+            1. Input - test the input of the variables with correct float or decimal states
+            2. Expected Output - test final answers that they are also correct as a float or decimal states
+            3. Report of problems and how they were fixed.  Write "Passed" if passed on first try.
+
+        Case 2:
+            1. Input - test the calculation formulas to make sure there is no logical errors
+            2. Expected Output - compare answers to teachers example
+            3. Report of problems and how they were fixed.  Write "Passed" if passed on first try.

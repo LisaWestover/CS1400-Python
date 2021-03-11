@@ -1,0 +1,43 @@
+# Lisa Westover
+# CS1400 7 week
+# Unit7/Task2 plan2.txt
+
+
+
+
+Software Design for Blackjack
+
+Create list for how many players
+Create a list for the total balance of the winnings
+Create a list of the bets that get placed
+Start a while loop to manage the game in sequence
+	Create a list of the card hands
+	Create a list fot the dealer cards
+	Create a list for  the final scores after each hand is done
+	Prompt user for how many players
+	In a for loop
+		promt the user for the bet amount for each user
+		place answer into lists
+	run deaHand function
+		shuffles the deck
+		for loop to cycle through each user to issue a card twice, and the dealer
+		state what dealers second card is
+	run addCards function
+		for loop to cycle through each user to see if they want additional cards or not
+		calculates final score for each user
+			calcTotal
+				return the point Totals of the cards selected
+
+	assign dealerScore  to calcDealer function
+		have the deaeler decide to take additional cards or not.
+		Return the total points of the dealers cards
+
+	run determineWinner function
+		print dealer score information
+		for loop through the players and print their scores
+    prompt user if they want to play again
+	    if yes, play again
+	    if no,
+        say thank you
+        run a bubble sort
+        print final scores

@@ -1,0 +1,62 @@
+# Lisa Westover
+# CS1400 7 week
+# Unit4/Task2 plan2.txt
+
+Design Number Pyramid
+
+Software Development Life Cycle
+
+
+1. Requirements specification
+   -user enters number of rows
+   -program displays a pyramid where each row x printed x times
+      -x is the row #
+   -have a space betweeen each number on the rows
+   -top number is always 1
+   -bottom number is - given by user
+   -center each row in space equal to the lenth of bottom row
+
+2. System analysis
+    -prompt user for number of rows
+    -calculate the spacing of pyramid based on user input
+    -print the pyramid to the screen
+
+3. System design
+    def main():
+        num = input("Enter the number of rows")
+        print(makeNumPyramid(num))
+
+    def makeNumPyramid(num):
+        lengthNum = len(num)
+        msg = ""
+
+        for i in range(num)
+            if lengthNum > 1:
+                if num > 1
+                    num = " " + str(num) + " "
+                else
+                    num = " " + str(num)
+            else
+                num = " " + str(num)
+            msg += format(str(num) + "\n", "^lengthnum + 1"
+        return msg
+
+     main()
+
+Controlling and monitoring system activities Allocating and managing system resources Scheduling operations
+print("This is wonderful")
+print(10 + 5)
+Division happens before addition.
+
+4. Testing
+   2 test cases to run to assess the program
+
+        Case 1:
+            1. Input - test the input from the user
+            2. Expected Output - test final answers that they are also correct as a float or decimal states
+            3. Report of problems and how they were fixed.  Write "Passed" if passed on first try.
+
+        Case 2:
+            1. Input - test the for loops, making sure they can handle all situations
+            2. Expected Output - compare answers to teachers example
+            3. Report of problems and how they were fixed.  Write "Passed" if passed on first try.

@@ -1,0 +1,107 @@
+# Lisa Westover
+# CS1400 7 week
+# Unit4/Task2 plan2.txt
+
+Patterns
+
+Software Development Life Cycle
+
+
+1. Requirements specification
+   -Draw a chessboard based on user input
+    -ask for location
+    -ask for height, set default to 250
+    -ask for width , set default to 250
+
+    -use code provided by teacher, to handle an empty string
+    -in main() - must note where the functions are called.
+     # calling function draw chessboard
+     -do not modify main code except where specified
+     -create a chessboard.py
+        -it will conatin ALL needed functions
+    -no global variables
+
+2. System analysis
+    main()
+        -prompts users
+        -calls functions
+    chessboard.py
+    drawChessboard()
+        -outlines the border of chessboard
+        -calls the other functions to manage the inner boxes
+    drawAllRectangles
+        -manages the loops to where the location of each inner box starts
+        -calls drawRectangle
+    drawRectangle
+        -draws a box based on specs received and fills it in
+
+3. System design
+    drawChessboard()
+        turtle.getturtle()
+        turtle.showturtle()
+        turtle.penup()
+        turtle.goto(startX, startY)
+        turtle.pendown()
+        turtle.forward(width)
+        turtle.left(90)
+        turtle.forward(height)
+        turtle.left(90)
+        turtle.forward(width)
+        turtle.left(90)
+        turtle.forward(height)
+
+
+    drawAllRectangles()
+            for j in range(4):
+
+        for i in range(4):
+            # begin drawing squares
+
+            drawRectangle(newStartX, newStartY, squareWidth, squareHeight)
+
+            newStartX = newStartX + squareWidth + squareWidth
+        newStartY = newStartY + squareHeight * 2
+        newStartX = startX
+
+    newStartX = startX + squareWidth
+    newStartY = startY + squareHeight
+
+    for j in range(4):
+        for i in range(4):
+            drawRectangle(newStartX, newStartY, squareWidth, squareHeight)
+            newStartX = newStartX + squareWidth + squareWidth
+        newStartY = newStartY + squareHeight * 2
+        newStartX = startX + squareWidth
+
+    drawRectangles()
+        turtle.penup()
+        turtle.goto(newStartX, newStartY)
+        turtle.pendown()
+        turtle.begin_fill()
+        turtle.color("black")
+        turtle.setheading(0)
+        turtle.forward(squareWidth)
+        turtle.setheading(90)
+        turtle.forward(squareHeight)
+        turtle.setheading(180)
+        turtle.forward(squareWidth)
+        turtle.setheading(270)
+        turtle.forward(squareHeight)
+        turtle.end_fill()
+        turtle.left(90)
+
+
+
+
+4. Testing
+   2 test cases to run to assess the program
+
+        Case 1:
+            1. Input - test the input from the user
+            2. Expected Output - test final answers that they are also correct as a float or decimal states
+            3. Report of problems and how they were fixed.  Write "Passed" if passed on first try.
+
+        Case 2:
+            1. Input - test the for loops, making sure they can handle all situations
+            2. Expected Output - compare answers to teachers example
+            3. Report of problems and how they were fixed.  Write "Passed" if passed on first try.

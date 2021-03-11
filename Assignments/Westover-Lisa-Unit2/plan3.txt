@@ -1,0 +1,35 @@
+Software Development Life Cycle
+
+
+1. Requirements specification
+    input in a different way the length and number of sides
+    display result with appropriate message to user
+    use math() mods for pi, tan() and pow()
+    output should be rounded to 5 decimal places using round()
+
+
+2. System analysis
+    create variables to input the length and number of sides inputs
+    create calculation variables to run the formula through
+    print statement to give the user the area (in 5 decimal places using round())
+
+
+3. System design
+    design a different way to input the length and number of sides
+    maybe turtle can input??
+    calc area
+    display the area to the user (5 decimal places using round()
+
+
+4. Testing
+   2 test cases to run to assess the program
+
+        Case 1:
+            1. Input - test the input of the variables with correct float or decimal states
+            2. Expected Output - test final answers that they are also correct as a float or decimal states
+            3. Report of problems and how they were fixed.  Write "Passed" if passed on first try.
+
+        Case 2:
+            1. Input - test the calculation formulas to make sure there is no logical errors
+            2. Expected Output - compare answers to teachers example
+            3. Report of problems and how they were fixed.  Write "Passed" if passed on first try.

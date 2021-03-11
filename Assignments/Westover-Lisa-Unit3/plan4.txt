@@ -1,0 +1,31 @@
+# Lisa Westover
+# CS1400 7 week
+# Unit3/Plan4
+
+
+Plan for Elephants
+
+
+Software Development Life Cycle
+
+1. Requirements specification
+     - simulate 100,000
+        1st elephant randomly entering 1 0f 6 stalls
+        2nd element randomly entering 1 of 6 stalls
+        zookeeper randomly entering 1 of 6 stalls
+
+        keep a counter of how many times the zookeeper sees both elephants
+        calculate the percentages
+
+2. System analysis
+    run the random.randint() in a for loop 100,000 against all three elements
+     increment a counter everytime the zookeeper enters a stall that has both elephphants in it
+     calculate the percentage against the 100,000 tests
+     print results
+     prompt to run the simulation again at the end of the loop
+
+3. System design
+    Begin with a printed statement saying what it does
+    print the percentages as the simulation runs
+    print the final results
+    prompt to run it again or quit

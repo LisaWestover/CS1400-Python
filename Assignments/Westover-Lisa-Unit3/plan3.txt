@@ -1,0 +1,36 @@
+# Lisa Westover
+# CS1400 7 week
+# Unit3/Plan3
+
+Plan for Finding Fluky Numbers
+
+Software Development Life Cycle
+
+
+1. Requirements specification
+    generate seeded random numbers from 1 - 100000
+    take the sum of each to see if a funky number is generated
+    record the start and stop time
+    count the loops total
+
+2. System analysis
+    import random
+    Use randseed() to start the reoccurring random numers
+    Use randint() with a range of 1 to 10000
+        do not exit the program until every random number is tested
+    use a while loop to loop through a series of numbers starting with 1,
+        see if the sum of those random numbers add up to be a fluky number
+    record the start and end time in seconds
+    count how many loops were needed in the program
+
+
+3. System design
+    setup the random numbers
+    collect the begin start time
+    setup the while loop
+    sum the random numbers and test for a funky number
+    print the fluky numbers as they are found
+    collect the time and compare with beginning time
+    print the time it took to do entire calculation
+    print the total loops it took
+
